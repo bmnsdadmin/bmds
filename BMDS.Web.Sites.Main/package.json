@@ -1,10 +1,10 @@
 {
-  "name": "react-tutorials",
+  "name": "bmds.web.sites.main",
   "version": "0.0.0",
-  "description": "",
+  "description": "Bishnupriya Manipuri Online Services",
   "main": "webpack.config.js",
   "dependencies": {
-    "babel-core": "^6.17.0",
+    "babel-core": "^6.18.2",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
     "babel-plugin-react-html-attrs": "^2.0.0",
@@ -15,12 +15,19 @@
     "babel-preset-stage-0": "^6.3.13",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-observable": "^0.16.0",
+    "redux-promise-middleware": "^3.2.0",
+    "redux-thunk": "^2.1.0",
+    "rxjs": "^5.5.2",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

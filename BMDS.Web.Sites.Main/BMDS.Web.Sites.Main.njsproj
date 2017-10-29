@@ -36,16 +36,24 @@
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\js\" />
+    <Folder Include="src\js\actions\" />
     <Folder Include="src\js\components\" />
     <Folder Include="src\js\components\Header\" />
+    <Folder Include="src\js\components\layout\" />
+    <Folder Include="src\js\epics\" />
+    <Folder Include="src\js\pages\" />
+    <Folder Include="src\js\reducers\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\client.min.js" />
+    <Compile Include="src\js\actions\tweetsActions.js" />
+    <Compile Include="src\js\actions\userActions.js" />
     <Compile Include="src\js\client.js" />
-    <Compile Include="src\js\components\Footer.js" />
-    <Compile Include="src\js\components\Header.js" />
-    <Compile Include="src\js\components\Header\Title.js" />
     <Compile Include="src\js\components\Layout.js" />
+    <Compile Include="src\js\epics\index.js" />
+    <Compile Include="src\js\reducers\index.js" />
+    <Compile Include="src\js\reducers\tweetsReducer.js" />
+    <Compile Include="src\js\reducers\userReducer.js" />
+    <Compile Include="src\js\store.js" />
     <Compile Include="webpack.config.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
