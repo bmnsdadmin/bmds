@@ -11,6 +11,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMDS.Services.Localisation"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BMDS.Web.Sites.Main", "BMDS.Web.Sites.Main\BMDS.Web.Sites.Main.njsproj", "{7C79C688-F387-4380-9921-8D2B39D14009}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BMDS.Web.Sites.WebcamManagement", "BMDS.Web.Sites.WebcamManagement\", "{5462DF18-3E1C-43D4-BC79-979D6AB09B8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62798"
+		Debug.AspNetCompiler.PhysicalPath = "BMDS.Web.Sites.WebcamManagement\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62798\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62798"
+		Release.AspNetCompiler.PhysicalPath = "BMDS.Web.Sites.WebcamManagement\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62798\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62798"
+		SlnRelativePath = "BMDS.Web.Sites.WebcamManagement\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +55,10 @@ Global
 		{7C79C688-F387-4380-9921-8D2B39D14009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C79C688-F387-4380-9921-8D2B39D14009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C79C688-F387-4380-9921-8D2B39D14009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5462DF18-3E1C-43D4-BC79-979D6AB09B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5462DF18-3E1C-43D4-BC79-979D6AB09B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5462DF18-3E1C-43D4-BC79-979D6AB09B8C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5462DF18-3E1C-43D4-BC79-979D6AB09B8C}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
