@@ -16,6 +16,8 @@
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-redux": "^4.4.5",
+    "react-router": "^1.0.3",
+    "history": "^1.17.0",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
     "redux-observable": "^0.16.0",

@@ -38,7 +38,6 @@
     <Folder Include="src\js\" />
     <Folder Include="src\js\actions\" />
     <Folder Include="src\js\components\" />
-    <Folder Include="src\js\components\Header\" />
     <Folder Include="src\js\components\layout\" />
     <Folder Include="src\js\epics\" />
     <Folder Include="src\js\pages\" />
@@ -47,9 +46,19 @@
   <ItemGroup>
     <Compile Include="src\js\actions\tweetsActions.js" />
     <Compile Include="src\js\actions\userActions.js" />
-    <Compile Include="src\js\client.js" />
+    <Compile Include="src\js\client1.js" />
+    <Compile Include="src\js\components\Article.js" />
     <Compile Include="src\js\components\Layout.js" />
+    <Compile Include="src\js\components\layout\Footer.js" />
+    <Compile Include="src\js\components\layout\Nav.js" />
     <Compile Include="src\js\epics\index.js" />
+    <Compile Include="src\js\pages\About.js" />
+    <Compile Include="src\js\pages\Archives.js" />
+    <Compile Include="src\js\pages\Featured.js" />
+    <Compile Include="src\js\pages\Home.js" />
+    <Compile Include="src\js\pages\Layout.js" />
+    <Compile Include="src\js\client.js" />
+    <Compile Include="src\js\pages\Settings.js" />
     <Compile Include="src\js\reducers\index.js" />
     <Compile Include="src\js\reducers\tweetsReducer.js" />
     <Compile Include="src\js\reducers\userReducer.js" />
